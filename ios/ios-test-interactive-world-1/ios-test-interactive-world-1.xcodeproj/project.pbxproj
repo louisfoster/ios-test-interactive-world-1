@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		822C99AB1D3C715384C043C4 /* Pods_ios_test_interactive_world_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54556A78F862D0192F75F278 /* Pods_ios_test_interactive_world_1.framework */; };
+		DE0E35F4205A90E400899822 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E35F3205A90E400899822 /* Map.swift */; };
+		DE0E35F6205A912E00899822 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E35F5205A912E00899822 /* Tile.swift */; };
+		DE0E35F8205A913D00899822 /* NodeHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E35F7205A913D00899822 /* NodeHelpers.swift */; };
+		DE0E35FB205A919700899822 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0E35FA205A919700899822 /* art.scnassets */; };
+		DE0E35FD205A926E00899822 /* Harness.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E35FC205A926E00899822 /* Harness.swift */; };
+		DE0E35FF205A92A200899822 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E35FE205A92A200899822 /* Avatar.swift */; };
+		DE0E3601205A95E100899822 /* GestureInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E3600205A95E000899822 /* GestureInterface.swift */; };
+		DE0E3604205A95F400899822 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E3603205A95F400899822 /* Notifications.swift */; };
+		DE0E3606205A960600899822 /* InputIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E3605205A960600899822 /* InputIntent.swift */; };
+		DE0E3609205A983400899822 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E3608205A983400899822 /* Camera.swift */; };
+		DE0E360B205A9BE400899822 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0E360A205A9BE400899822 /* Closures.swift */; };
 		DE4ADCA6205A8A47006CA678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4ADCA5205A8A47006CA678 /* AppDelegate.swift */; };
 		DE4ADCAD205A8A47006CA678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4ADCAC205A8A47006CA678 /* Assets.xcassets */; };
 		DE4ADCB0205A8A47006CA678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4ADCAE205A8A47006CA678 /* LaunchScreen.storyboard */; };
@@ -19,6 +30,17 @@
 		1C7F34EEC75B516D505D4E52 /* Pods-ios-test-interactive-world-1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-test-interactive-world-1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-test-interactive-world-1/Pods-ios-test-interactive-world-1.debug.xcconfig"; sourceTree = "<group>"; };
 		54556A78F862D0192F75F278 /* Pods_ios_test_interactive_world_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_test_interactive_world_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D709F3F6A60BC570E0924B14 /* Pods-ios-test-interactive-world-1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-test-interactive-world-1.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-test-interactive-world-1/Pods-ios-test-interactive-world-1.release.xcconfig"; sourceTree = "<group>"; };
+		DE0E35F3205A90E400899822 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		DE0E35F5205A912E00899822 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		DE0E35F7205A913D00899822 /* NodeHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeHelpers.swift; sourceTree = "<group>"; };
+		DE0E35FA205A919700899822 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		DE0E35FC205A926E00899822 /* Harness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Harness.swift; sourceTree = "<group>"; };
+		DE0E35FE205A92A200899822 /* Avatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		DE0E3600205A95E000899822 /* GestureInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureInterface.swift; sourceTree = "<group>"; };
+		DE0E3603205A95F400899822 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		DE0E3605205A960600899822 /* InputIntent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputIntent.swift; sourceTree = "<group>"; };
+		DE0E3608205A983400899822 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		DE0E360A205A9BE400899822 /* Closures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 		DE4ADCA2205A8A47006CA678 /* ios-test-interactive-world-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-test-interactive-world-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4ADCA5205A8A47006CA678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE4ADCAC205A8A47006CA678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +79,72 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DE0E35EE205A8F4F00899822 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				DE0E35F3205A90E400899822 /* Map.swift */,
+				DE0E35F5205A912E00899822 /* Tile.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		DE0E35EF205A8F5D00899822 /* Harness */ = {
+			isa = PBXGroup;
+			children = (
+				DE0E35FC205A926E00899822 /* Harness.swift */,
+			);
+			path = Harness;
+			sourceTree = "<group>";
+		};
+		DE0E35F0205A8F6700899822 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				DE0E3600205A95E000899822 /* GestureInterface.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		DE0E35F1205A8F7A00899822 /* Intent */ = {
+			isa = PBXGroup;
+			children = (
+				DE0E3605205A960600899822 /* InputIntent.swift */,
+			);
+			path = Intent;
+			sourceTree = "<group>";
+		};
+		DE0E35F2205A8F9100899822 /* Avatar */ = {
+			isa = PBXGroup;
+			children = (
+				DE0E35FE205A92A200899822 /* Avatar.swift */,
+			);
+			path = Avatar;
+			sourceTree = "<group>";
+		};
+		DE0E35F9205A914600899822 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DE0E35F7205A913D00899822 /* NodeHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DE0E3602205A95ED00899822 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				DE0E3603205A95F400899822 /* Notifications.swift */,
+				DE0E360A205A9BE400899822 /* Closures.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		DE0E3607205A97DA00899822 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				DE0E3608205A983400899822 /* Camera.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
 		DE4ADC99205A8A47006CA678 = {
 			isa = PBXGroup;
 			children = (
@@ -78,8 +166,17 @@
 		DE4ADCA4205A8A47006CA678 /* ios-test-interactive-world-1 */ = {
 			isa = PBXGroup;
 			children = (
+				DE0E3607205A97DA00899822 /* Camera */,
+				DE0E3602205A95ED00899822 /* Constants */,
+				DE0E35F9205A914600899822 /* Helpers */,
+				DE0E35F2205A8F9100899822 /* Avatar */,
+				DE0E35F1205A8F7A00899822 /* Intent */,
+				DE0E35F0205A8F6700899822 /* Interface */,
+				DE0E35EF205A8F5D00899822 /* Harness */,
+				DE0E35EE205A8F4F00899822 /* Map */,
 				DE4ADCB7205A8A75006CA678 /* Main */,
 				DE4ADCA5205A8A47006CA678 /* AppDelegate.swift */,
+				DE0E35FA205A919700899822 /* art.scnassets */,
 				DE4ADCAC205A8A47006CA678 /* Assets.xcassets */,
 				DE4ADCAE205A8A47006CA678 /* LaunchScreen.storyboard */,
 				DE4ADCB1205A8A47006CA678 /* Info.plist */,
@@ -160,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE4ADCB0205A8A47006CA678 /* LaunchScreen.storyboard in Resources */,
+				DE0E35FB205A919700899822 /* art.scnassets in Resources */,
 				DE4ADCBB205A8A97006CA678 /* MainViewController.xib in Resources */,
 				DE4ADCAD205A8A47006CA678 /* Assets.xcassets in Resources */,
 			);
@@ -237,8 +335,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0E3609205A983400899822 /* Camera.swift in Sources */,
+				DE0E35FD205A926E00899822 /* Harness.swift in Sources */,
+				DE0E3601205A95E100899822 /* GestureInterface.swift in Sources */,
 				DE4ADCBA205A8A97006CA678 /* MainViewController.swift in Sources */,
+				DE0E3604205A95F400899822 /* Notifications.swift in Sources */,
+				DE0E360B205A9BE400899822 /* Closures.swift in Sources */,
+				DE0E35F8205A913D00899822 /* NodeHelpers.swift in Sources */,
+				DE0E35F4205A90E400899822 /* Map.swift in Sources */,
+				DE0E35FF205A92A200899822 /* Avatar.swift in Sources */,
 				DE4ADCA6205A8A47006CA678 /* AppDelegate.swift in Sources */,
+				DE0E3606205A960600899822 /* InputIntent.swift in Sources */,
+				DE0E35F6205A912E00899822 /* Tile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
